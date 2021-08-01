@@ -38,9 +38,9 @@ const defaultMenu = {
 │ Level *%level (%exp / %maxexp)* [%xp4levelup more needed to levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ Date: *%weton, %date*
+│ Islamic date: *%dateIslamic*
+│ Time: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
