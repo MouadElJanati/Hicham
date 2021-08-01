@@ -9,7 +9,7 @@ let handler = async (m, { isPrems }) => {
 }
 handler.help = ['Hicham']
 handler.tags = ['xp']
-handler.command = /^(daily|claim)$/i
+handler.command = /^(Hicham)$/i
 handler.owner = true
 handler.mods = false
 handler.premium = false
