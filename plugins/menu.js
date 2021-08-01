@@ -31,9 +31,9 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ Hai, %name!
+│ Hi, %name!
 │
-│ Tersisa *%limit Limit*
+│ Left *%limit Limit*
 │ Role *%role*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     // Offset -420 is 18.00
     // Offset    0 is  0.00
     // Offset  420 is  7.00
-    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let weton = ['Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','Monday'][Math.floor(d / 84600000) % 7]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
       day: 'numeric',
