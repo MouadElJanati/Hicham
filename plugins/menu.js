@@ -35,7 +35,7 @@ const defaultMenu = {
 │
 │ Left *%limit Limit*
 │ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Level *%level (%exp / %maxexp)* [%xp4levelup more needed to levelup]
 │ %totalexp XP in Total
 │ 
 │ Tanggal: *%week %weton, %date*
