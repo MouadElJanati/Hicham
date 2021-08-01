@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     // Offset -420 is 18.00
     // Offset    0 is  0.00
     // Offset  420 is  7.00
-    let weton = [,'Wednesday','Thursday','Friday','Saturday','Sunday','Monday''Tuesday'][Math.floor(d / 84600000) % 7]
+    let weton = ['Wednesday','Thursday','Friday','Saturday','Sunday','Monday','Tuesday'][Math.floor(d / 84600000) % 7]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
       day: 'numeric',
